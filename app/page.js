@@ -8,7 +8,7 @@ export default async function Home() {
   // console.log(res);
   return (
     <main>
-      <div className="m-6 text-lg">Hello Next13 🔥</div>
+      <div className="m-6 text-lg">Here you go 🔥</div>
       <div className="grid gap-16 grid-cols-fluid">
         {res.results.map((movie) => {
           return (
