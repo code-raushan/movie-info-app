@@ -1,4 +1,10 @@
 import Movie from "../Movie";
+
+export const metadata={
+    title: 'Upcoming',
+    description: 'Upcoming movies'
+}
+
 export default async function Upcoming() {
   // the movie database api for movies
   const data = await fetch(
