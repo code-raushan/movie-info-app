@@ -10,7 +10,7 @@ export default async function Home() {
     <main>
       <div className="m-6 text-lg">Here you go 🔥</div>
       <div className="grid gap-16 grid-cols-fluid">
-        {res.results.map((movie) => {
+        {res.results.map((movie:any) => {
           return (
             <Movie
               key={movie.id}

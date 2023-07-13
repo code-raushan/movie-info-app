@@ -12,7 +12,8 @@ export const metadata = {
   description: 'A movie information app that utilises the powerful TMDB to cater movie information.',
 }
 
-export default function RootLayout({ children }) {
+
+export default function RootLayout({ children }:React.PropsWithChildren<{}>) {
   return (
     <html lang="en">
     <body className={`${montserrat.className} mx-32 my-12`} style={{background: 'black', color: 'white'}}>
